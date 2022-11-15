@@ -405,13 +405,6 @@ ul {
 
 .tabs {
   margin: 48px 0 100px 0;
-  /*&-buttons__drinks {
-      display: inline-block;
-      border: none;
-      cursor: pointer;
-      padding: 0;
-      margin-left: 20px;
-  }*/
 }
 
 .tabs-buttons {
@@ -556,6 +549,12 @@ ul {
 
 .news-content__item:hover {
   transform: scale(1.1);
+}
+
+.news-content__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 356px;
 }
 
 .news-content__inner {
@@ -797,6 +796,10 @@ ul {
 }
 
 @media (max-width: 1200px) {
+  .header {
+    background-color: #444444;
+  }
+
   .nav {
     visibility: hidden;
     opacity: 0;
